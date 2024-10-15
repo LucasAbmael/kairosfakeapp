@@ -1,16 +1,16 @@
 {
   "expo": {
-    "name": "kairosfakeapp",
+    "name": "kairos - Treino personalizado",
     "slug": "kairosfakeapp",
-    "version": "1.0.0",
+    "version": "1.4.4",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
     "userInterfaceStyle": "automatic",
+    "scheme": "myapp",
     "splash": {
       "image": "./assets/images/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#00050A"
     },
     "ios": {
       "supportsTablet": true
@@ -18,8 +18,10 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#00050A"
+      },
+      "package": "com.abmael.kairosfakeapp",
+      "versionCode": 6
     },
     "web": {
       "bundler": "metro",
@@ -27,10 +29,16 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "efc25d2b-a158-468f-bd74-9e4891e7036f"
+      }
     }
   }
 }
